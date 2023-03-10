@@ -3,6 +3,7 @@
 #include<conio.h>
 using namespace std;
 
+//blackjack class
 class blackjack{
     protected:
         int phand[5], dhand[5];
@@ -20,6 +21,7 @@ class blackjack{
         int sum_d();
 };
 
+//ROULETTE CLASS MADE BY AN ASSHOLE
 class roulette{
     protected:
     int random_generator(int n){
